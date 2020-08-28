@@ -1,0 +1,16 @@
+{
+  "name": "tinymce-ipv6-fix-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "node tinymce_ipv6_fix.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "replace-in-file": "^6.1.0",
+    "tinymce": "^5.4.2"
+  }
+}
